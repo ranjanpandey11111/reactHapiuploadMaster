@@ -1,0 +1,69 @@
+.upload-photo-root {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    background: url('./avatar.png') center center no-repeat rgb(250, 250, 250);
+}
+
+.upload-photo-button {
+    display: block;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+    background-color: #fafafa;
+    background: url('./avatar.png') center center no-repeat rgb(250, 250, 250);
+    border: 2px dotted #cfd8dc;
+}
+
+.upload-photo-input {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    opacity: 0;
+}
+
+.upload-photo-img {
+    width: 300px;
+    height: 300px;
+    display: none;
+}
+
+.upload-photo-preview {
+    position: absolute;
+    overflow: hidden;
+    top: 140px;
+    left: 350px;
+    width: 125px;
+    height: 125px;
+    border: 1px solid #cfd8dc;
+    border-radius: 3px;
+    background: url('./avatar_medium.png') center center no-repeat #fafafa;
+}
+
+.upload-photo-preview-title {
+    position: absolute;
+    top: 110px;
+    left: 390px;
+    font-size: 14px;
+    color: #90a4ae;
+    padding-bottom: 6px;
+}
+
+.upload-photo-preview-info {
+    position: absolute;
+    top: 280px;
+    left: 375px;
+    color: #90a4ae;
+    padding-bottom: 6px;
+}
+
+.avatar_info {
+    color: #546e7a;
+    font-size: 12px;
+    line-height: 24px;
+    background: #eef2f5;
+    text-align: center;
+    margin-bottom: 50px;
+}
